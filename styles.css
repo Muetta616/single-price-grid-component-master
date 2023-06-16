@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    background-color: hsl(204, 43%, 93%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: hsl(200, 30%, 92%);
+}
+
+.main-container {
+    border-radius: 15px;
+    padding: 1.5rem;
+    max-width: 1000px
+}
+
+h2 {
+    color: hsl(179, 62%, 43%);
+    padding-bottom: 20px;
+}
+
+h4 {
+    color: hsl(71, 73%, 54%);
+    padding-bottom: 10px;
+
+}
+
+.top-box {
+    background-color: white;
+    color: hsl(202, 16%, 58%);
+    padding: 40px;
+    border-radius: 10px 10px 0 0;
+}
+
+.bottom-box {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+
+}
+
+
+.left-box {
+    background-color: hsl(179, 62%, 43%);
+    padding: 40px;
+    border-radius: 0 0 0 10px;
+
+
+}
+
+.left-box h3 {
+    padding-bottom: 20px;
+}
+
+.right-box{
+    background-color: hsl(179, 52%, 65%);
+    padding: 40px;
+    border-radius: 0 0 10px 0;
+    
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li {
+    padding-bottom: 2px;
+}
+p {
+    line-height: 1.5;
+}
+
+.btn {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    font: inherit;
+    font-weight: bold;
+}
+
+.price {
+    display: inline;
+    padding-bottom: 15px;
+    
+}
+
+.number{
+    font-size: 30px;
+    display: inline;
+    font-weight: bold;
+}
+
+.per-month {
+    display: inline;
+}
+
+.full-access {
+    padding-bottom: 23px;
+}
+
+.attribution { font-size: 11px; text-align: center; color: hsl(0, 0%, 0%); }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
